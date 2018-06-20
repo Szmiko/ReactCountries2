@@ -8,6 +8,6 @@ import { getCountries } from './actions/actions-countries.js';
 render(
 	<Provider store={store}>
 		<Router history={hashHistory} routes={routes}/>
-	</Provider>
+	</Provider>,
 	document.getElementById('root')
 );
